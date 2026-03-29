@@ -1,0 +1,40 @@
+__pycache__/
+*.pyc
+
+# Credentials and config
+config.json
+
+# Personal resume files
+*.pdf
+*.docx
+resume-summary.md
+
+# Large data files
+pending-review.json
+seen-jobs.json
+downloaded_files/
+
+# Lock files and env
+*.lock
+.env
+
+# Temporary scoring files
+filtered-jobs.json
+
+# Scrapling cache and browser data
+.scrapling/
+scrapling_cache/
+camoufox_data/
+
+# Tailored resumes (personal data)
+tailored-resumes/
+
+# Playwright MCP debug logs
+.playwright-mcp/
+
+# Indeed backfill data (one-off workflow)
+_indeed_backfill_queue.json
+_indeed_jds.json
+
+# Scored reports (output-only, regeneratable)
+scored-jobs/

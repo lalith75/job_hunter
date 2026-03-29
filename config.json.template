@@ -1,0 +1,55 @@
+{
+  "scoring": {
+    "dealbreakers": [
+      "cryptocurrency",
+      "crypto",
+      "web3",
+      "blockchain",
+      "defi",
+      "security clearance",
+      "clearance required",
+      "ts/sci",
+      "secret clearance",
+      "top secret"
+    ],
+    "target_roles": [
+      "data analyst",
+      "business analyst",
+      "business intelligence analyst",
+      "analytics engineer",
+      "reporting analyst",
+      "product analyst",
+      "data analytics",
+      "BI analyst",
+      "insights analyst",
+      "quantitative analyst"
+    ]
+  },
+  "jobspy": {
+    "sites": ["indeed", "linkedin"],
+    "hours_old": 24,
+    "results_per_role": 30,
+    "job_type": "fulltime",
+    "country": "usa",
+    "linkedin_fetch_description": true
+  },
+  "scrapling": {
+    "headless": true,
+    "stealthy_timeout_ms": 15000,
+    "stealthy_wait_ms": 3000,
+    "fetcher_timeout_sec": 15
+  },
+  "resume": {
+    "base_docx_path": "C:\\path\\to\\your\\base_resume.docx"
+  },
+  "link_validation": {
+    "enabled": true,
+    "timeout_sec": 5,
+    "max_workers": 10
+  },
+  "output": {
+    "pending_review": "pending-review.json",
+    "seen_jobs": "seen-jobs.json",
+    "scored_dir": "scored-jobs"
+  }
+}
